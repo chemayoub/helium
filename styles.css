@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: #202020;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+nav .logo{
+    padding-left: 20px;
+}
+nav ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding: 15px;
+}
+.text h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    width: 70%;
+}
+.text h2{
+    margin:20px 0;
+    color: #2334D3;
+}
+.text p{
+    width: 80%;
+}
+.img{
+    padding: 30px;
+}
+.img img{
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    background: #010310;
+    margin: 0 10px;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+main h3{
+    padding: 20px 0;
+}
+button{
+    display: block;
+    width:150px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    background: #2334D3;
+}
+.right{
+    width: 70%;
+}
+.right img{
+    width: 60%;
+}
+.investors-container{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 10px;
+}
